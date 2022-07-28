@@ -1,3 +1,5 @@
+import React from 'react'
+
 import styled from "styled-components"
 
 const Container = styled.div`
@@ -7,7 +9,7 @@ const Container = styled.div`
     position: relative;
 `
 const Info = styled.div`
-    postion: absolute;
+    position: absolute;
     width:100%;
     height:100%;
     top:0;
@@ -25,11 +27,17 @@ const Image = styled.img`
 `
 
 const Title = styled.h1`
-
+  color:#fbb03b;
+  margin-bottom:20px;
 `
 
 const Button = styled.button`
-
+  border:none;
+  padding: 10px;
+  background-color: #fbb03b;
+  color: #201b56;
+  font-weight: 600;
+  cursor:pointer;
 `
 
 const CategoryItem = ({item}) => {
